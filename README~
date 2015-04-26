@@ -1,1 +1,7 @@
-Here is my readme file. We will discuss all about Python! All the best! 
+Second Hand Market module for Lemniscate.
+
+Installation instructions:
+1. Keep the folder in the xampp folder.
+2. Import the database accordingly. In my case, the database is "sec_hand"
+3. Not configured with lemniscant. All queries for a dummy user id. Stored in a variable. Can be changed at that time.
+4. 
