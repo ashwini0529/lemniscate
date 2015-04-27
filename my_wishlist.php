@@ -25,7 +25,7 @@ $result=mysql_query($sql,$conn) or die(mysql_error());
 		echo "Cost: ".$row['expected_cost']."<br>";
 		echo "Contact Number: ".$row['contact']."<br>";
 		
-?>		<form method="GET" action="my_items.php">
+?>		<form method="GET" action="my_wishlist.php">
 		<input type="hidden" name="id" value ="<?php echo $row['id']; ?>">
 		<input type="submit" name="submit" value="Got it">
 		</form>
